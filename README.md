@@ -2,7 +2,7 @@
 
 ## Guide to run the script
 
-1. Install Anaconda or Minconda from [here](https://www.anaconda.com/distribution/#download-section)
+1. Install Anaconda or Miniconda from [here](https://www.anaconda.com/distribution/#download-section)
 2. Now, create a folder where you want project to be located and open a command prompt in the directory.
 3. Create an environment using anaconda.
     1. To list the versions of Python that are available to install, in your terminal window or an Anaconda Prompt, run: `conda search python` or `conda search --full-name python` to list packages whose full name is "python"
@@ -18,12 +18,12 @@
     8. To deactivate the environment, run: `conda deactivate` 
     9. To activate the environment, run: `conda activate py36env`
 4. Install dependencies of python
-    - Move to the directory of the project, open cmd and activate your environment : `conda activate py36env`
-    - Install Numpy: `pip install numpy`
-    - Install Pandas : `pip install pandas`
-    - Install OpenCV : `pip install opencv-python`
-    - Install cmake : `pip install cmake`
-    - Install dlib : `pip install dlib`
+    1. Move to the directory of the project, open cmd and activate your environment : `conda activate py36env`
+    2. Install Numpy: `pip install numpy`
+    3. Install Pandas : `pip install pandas`
+    4. Install OpenCV : `pip install opencv-python`
+    5. Install cmake : `pip install cmake`
+    6. Install dlib : `pip install dlib`
 
         dlib depends on cmake, so make sure that you install cmake from [here](https://cmake.org/download/) and add it to your PATH. Also, you should have Visual Studio installed with [build tools for cmake](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15)
 
