@@ -1,6 +1,6 @@
 # Face Recognition Security
 
-### Guide to run the script(Latest)
+### Brief guide to run the script
 - Install cmake from [here](https://cmake.org/download/) and add it to your PATH.
 - Visual Studio installed with [build tools for cmake](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15)
 - cd to the project and type in 
@@ -8,7 +8,7 @@
 - Execute the python file
 ```python face_rec.py```
 
-### Guide to run the script(Older Version)
+### Detailed guide to run the script
 
 1. Install Anaconda or Miniconda from [here](https://www.anaconda.com/distribution/#download-section)
 2. Now, create a folder where you want project to be located and open a command prompt in the directory.
